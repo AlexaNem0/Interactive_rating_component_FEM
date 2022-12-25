@@ -1,0 +1,31 @@
+.btn-number {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: grid;
+  place-content: center;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  color: var(--Light-Grey);
+  border: none;
+}
+
+.btn-number:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-number:focus {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: grid;
+  place-content: center;
+  background-color: var(--Light-Grey);
+  color: var(--White);
+  cursor: pointer;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-in-out;
+}

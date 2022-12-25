@@ -1,0 +1,9 @@
+.stars {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: grid;
+  place-content: center;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
